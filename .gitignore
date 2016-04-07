@@ -1,0 +1,11 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# dependencies
+/node_modules
+/bower_components
+
+# OSX
+.DS_Store
