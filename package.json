@@ -1,0 +1,34 @@
+{
+  "name": "react-signup-zxcvbn",
+  "version": "1.0.0",
+  "description": "Validate available email as username and check password strength using zxcvbn",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --content-base public/ --history-api-fallback",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratyk/react-signup-zxcvbn.git"
+  },
+  "author": "Prateek Singh Paudel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pratyk/react-signup-zxcvbn/issues"
+  },
+  "homepage": "https://github.com/pratyk/react-signup-zxcvbn#readme",
+  "dependencies": {
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-router": "^2.0.1",
+    "zxcvbn": "^4.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.6",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
